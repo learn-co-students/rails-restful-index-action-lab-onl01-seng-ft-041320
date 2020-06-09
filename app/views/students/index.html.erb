@@ -1,0 +1,3 @@
+<% @students.each_with_index do |student, i| %>
+<%= link_to("#{student.to_s}", "/students/#{student.id}") %>
+<% end %>
